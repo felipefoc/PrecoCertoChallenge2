@@ -1,0 +1,171 @@
+{
+    "paging": {
+        "total": 6,
+        "page": 1,
+        "offset": 0,
+        "limit": 100
+    },
+    "sort": [
+        {
+            "id": "asc"
+        }
+    ],
+    "availableFilters": [
+        "id",
+        "status",
+        "date",
+        "modified"
+    ],
+    "Orders": [
+        {
+            "Order": {
+                "id": "1",
+                "status": "FINALIZADO",
+                "date": "2019-09-01",
+                "total": "130.50",
+                "ProductsSold": [
+                    {
+                        "ProductsSold": {
+                            "id": "1",
+                            "sku": "P1",
+                            "quantity": "2",
+                            "name": "Cadeira de plástico",
+                            "price": "30.00",
+                            "cost_price": "17.80"
+                        }
+                    },
+                    {
+                        "ProductsSold": {
+                            "id": "2",
+                            "sku": "P2",
+                            "quantity": "1",
+                            "name": "Cadeira de madeira",
+                            "price": "70.50",
+                            "cost_price": "50.50"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Order": {
+                "id": "2",
+                "status": "FINALIZADO",
+                "date": "2019-09-15",
+                "partial_total": "185.00",
+                "ProductsSold": [
+                    {
+                        "ProductsSold": {
+                            "id": "1",
+                            "sku": "P1",
+                            "quantity": "1",
+                            "name": "Cadeira de plástico",
+                            "price": "35.00",
+                            "cost_price": "17.80"
+                        }
+                    },
+                    {
+                        "ProductsSold": {
+                            "id": "2",
+                            "sku": "P2",
+                            "quantity": "1",
+                            "name": "Cadeira de madeira",
+                            "price": "150.00",
+                            "cost_price": "50.50"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Order": {
+                "id": "3",
+                "status": "FINALIZADO",
+                "date": "2019-10-03",
+                "partial_total": "600.00",
+                "ProductsSold": [
+                    {
+                        "ProductsSold": {
+                            "id": "1",
+                            "sku": "P1",
+                            "quantity": "4",
+                            "name": "Cadeira de plástico",
+                            "price": "150.00",
+                            "cost_price": "17.80"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Order": {
+                "id": "4",
+                "status": "FINALIZADO",
+                "date": "2019-10-20",
+                "total": "100.00",
+                "ProductsSold": [
+                    {
+                        "ProductsSold": {
+                            "id": "1",
+                            "sku": "P1",
+                            "quantity": "2",
+                            "name": "Cadeira de plástico",
+                            "price": "50.00",
+                            "cost_price": "17.80"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Order": {
+                "id": "5",
+                "status": "FINALIZADO",
+                "date": "2019-11-05",
+                "total": "170.00",
+                "ProductsSold": [
+                    {
+                        "ProductsSold": {
+                            "id": "2",
+                            "sku": "P2",
+                            "quantity": "1",
+                            "name": "Cadeira de madeira",
+                            "price": "170.00",
+                            "cost_price": "50.50"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Order": {
+                "id": "6",
+                "status": "FINALIZADO",
+                "date": "2019-10-20",
+                "total": "195.00",
+                "ProductsSold": [
+                    {
+                        "ProductsSold": {
+                            "id": "2",
+                            "sku": "P2",
+                            "quantity": "2",
+                            "name": "Cadeira de madeira",
+                            "price": "60.00",
+                            "cost_price": "50.50"
+                        }
+                    },
+                    {
+                        "ProductsSold": {
+                            "id": "1",
+                            "sku": "P1",
+                            "quantity": "5",
+                            "name": "Cadeira de plástico",
+                            "price": "15.00",
+                            "cost_price": "17.80"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

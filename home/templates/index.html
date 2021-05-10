@@ -1,0 +1,28 @@
+{% comment %} {% for i in data.Orders%}
+<p>Produto</p>
+{{i.Order.ProductsSold}}
+{% endfor %} {% endcomment %}
+
+{% for i in data %}
+<p>{{i.name}}</p>
+<p>{{i.price}}</p>
+<p>{{i.cost_price}}</p>
+{% endfor %}
+
+
+{% for i in ab %}
+<p>{{i.sku}}</p>
+<p>{{i.quantity}}</p>
+<p>{{i.name.name}}</p>
+<p>{{i.cost_price.cost_price}}</p>
+{% endfor %}
+
+
+{% for i in eita %}
+<p>{{i.status}}</p>
+<p>{{i.date}}</p>
+<p>{{i.total}}</p>
+<p>{{i.product_sold}}</p>
+
+
+{% endfor %}
